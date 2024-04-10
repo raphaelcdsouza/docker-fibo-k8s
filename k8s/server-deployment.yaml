@@ -8,8 +8,9 @@ spec:
     matchLabels:
       component: server
   template:
-    labels:
-      component: server
+    metadata:
+      labels:
+        component: server
     spec:
       containers:
         - name: server
